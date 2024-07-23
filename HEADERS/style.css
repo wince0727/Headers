@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.classic {
+    background-color: #333;
+}
+
+.modern {
+    background: linear-gradient(to right, #333, #666);
+}
+
+.plain {
+    background-color: #000;
+    color: #fff;
+}
+
+.stack-left {
+    background-color: #444;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.stack-center {
+    background-color: #555;
+    text-align: center;
+}
+
+.stack-right {
+    background-color: #666;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.magazine {
+    background-color: #777;
+    padding: 40px 20px;
+}
+
+.creative {
+    background-color: #888;
+    position: relative;
+}
+
+.creative-always-open {
+    background-color: #999;
+    position: sticky;
+    top: 0;
+}
+
+.fixed {
+    background-color: #aaa;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.creative-right-always-open {
+    background-color: #bbb;
+    position: sticky;
+    right: 0;
+    top: 0;
+    width: 200px;
+}
+
+.empty {
+    background-color: #ccc;
+    color: transparent;
+}
+
+.transparent {
+    background-color: transparent;
+    color: #333;
+}
+
+.simple {
+    background-color: #ddd;
+}
+
+.over-layer {
+    background-color: #eee;
+    position: relative;
+    z-index: 10;
+}
+
+.below-slider {
+    background-color: #f5f5f5;
+    position: relative;
+    top: 60px;
+}
+
+.below-slider-split {
+    background-color: #f0f0f0;
+    position: relative;
+    top: 60px;
+    padding: 10px;
+}
+
+.split-semi-transparent {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}

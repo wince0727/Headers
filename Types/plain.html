@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Plain</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Plain.css">
+    <style type="Text/css">
+		*{
+			text-decoration: none;
+		}
+
+        
+		.navbar{
+			background: blue; 
+            font-family: calibri; 
+            padding-right: 50px;
+            padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+		}
+		.logo a{
+			font-size: 55px; 
+            font-weight: 600; 
+            color: black;
+		}
+        .underline-header {
+            text-decoration: underline;
+            color: black;
+        }
+		li{
+			list-style: none; 
+            display: inline-block;
+		}
+		li a{
+			color: white; 
+            font-size: 18px; 
+            font-weight: bold; 
+            margin-right: 25px;
+		}
+		button{
+			background-color: black; 
+            margin-left: 10px; 
+            border-radius: 10px; 
+            padding: 10px; 
+            width: 90px;
+		}
+		button a{
+			color: white; 
+            font-weight: bold; 
+            font-size: 15px;
+		}
+
+		.line{
+             position: absolute;
+             width: 3px;
+             height:70px;
+             background-color: #000;
+		}
+
+		.l1{
+			transform: translateX(150px);
+		}
+
+		.l2{
+			position: absolute;
+			right:465px;
+			top:10px;
+		}
+
+		.l3{
+			position: absolute;
+			right:360px;
+			top:10px;
+		}
+
+		.l4{
+			position: absolute;
+			right:257px;
+			top:10px;
+		}
+
+		.l5{
+			position: absolute;
+			right:153px;
+			top:10px;
+		}
+
+        
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+            <div class="logo"><a href="#">LOGO</a> </div>
+			<div class="line l1"></div>
+			<ul>
+				<div class="line l2"></div>
+                <button><a href="#">Home</a></button>
+				<div class="line l3"></div>
+				<button><a href="#">About</a></button>
+				<div class="line l4"></div>
+                <button><a href="#">Services</a></button>
+				<div class="line l5"></div>
+                <button><a href="#">Contact</a></button>
+
+    
+    
+			</ul>
+		</div>
+	</nav>
+</body>
+</html>
+
